@@ -1,0 +1,33 @@
+.main-footer {
+    color: white;
+    background:linear-gradient( #29B6F6, #5C6BC0);
+    padding-top: 2em;
+    position: relative;
+    top: 280px;
+    width: 100%;
+   
+    
+  }
+  .row{
+      margin-left: 390px;
+  }
+  @media (max-width: 499px) {
+      .row{
+    margin-left: 10px;
+  }}
+  @media (max-width: 890px) {
+    .row{
+  margin-left: 90px;
+}}
+@media (max-width: 990px) {
+    .row{
+  margin-left: 210px;
+}}
+@media (max-width: 389px) {
+    .row{
+  margin-left: 10px;
+}}
+@media (max-width: 449px) {
+    .row{
+  margin-left: 10px;
+}}

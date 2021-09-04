@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.Social_follow{
+  
+    text-align : center;
+    margin-top: 120px;
+    font-family: 'Roboto Slab', serif;
+}
+.Social_follow  h1 {
+    color : blue;
+   margin-bottom: 30px;
+   font-family: 'Roboto Slab', serif;
+   text-decoration: underline 0.07em rgba(0, 0, 0, 0);
+   transition: text-decoration-color 300ms;
+}
+.Social_follow  h1:hover {
+    text-decoration-color:rgb(41, 121, 255) ;
+ 
+}
+
+.Social_icon{
+    margin-right: 50px;
+}
+.Social_fact{
+    flex-direction : column;
+  
+     height: 2em;
+     
+}
+.Link_style{
+    flex-direction : column;
+}

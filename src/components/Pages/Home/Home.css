@@ -1,0 +1,41 @@
+figcaption {
+    position: absolute;
+    top : 11rem;
+    text-align: center;
+    margin-left: 28rem;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+figcaption p{
+    font-size : 1.3rem;
+}
+
+
+@media (max-width: 1098px) {
+    figcaption {
+        margin-left: 18rem;
+    }
+    
+}
+@media (max-width: 845px) {
+    figcaption {
+        margin-left: 13rem;
+    }
+    
+}
+@media (max-width: 700px) {
+    figcaption {
+        margin-left: 7rem;
+    }
+    
+}
+@media (max-width: 576px) {
+    figcaption {
+        margin-left: 2rem;
+    }
+    
+}
+.content-wrap {
+    flex: 1;
+  }
